@@ -1,3 +1,3 @@
 1.gitBash Here
-2.git config --user user.name "3015204355"
-3.git config --user user.email "2505547681@qq.com"
+2.git config --user user.name "username"
+3.git config --user user.email "email"
