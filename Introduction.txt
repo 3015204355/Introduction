@@ -9,5 +9,8 @@
     git push -u origin master
 6.对提交的文件修改后，可以用git status查看状态----
 7.git diff 文件名       --->可以查看修改的不同的地方
-8.每次修改完之后，需要git add 和git commit命令进行重新提交
-9。仅仅为了测试
+8.每次修改完之后，需要git add 和git commit命令进行重新提交，本地commit之后再用git push上传
+9.用git log查看最近上传的情况,用git reflog查看更新的版本情况
+10.git reset --hard HEAD^（^有几个代表往上回退几个版本）
+11.git reset --hard 版本号（直接通过reflog的版本号回退）
+
