@@ -13,4 +13,10 @@
 9.用git log查看最近上传的情况,用git reflog查看更新的版本情况
 10.git reset --hard HEAD^（^有几个代表往上回退几个版本）
 11.git reset --hard 版本号（直接通过reflog的版本号回退）
+12.同时删除本地仓库和远程仓库文件
+     git rm 文件名（如果带目录记得/）
+     git commit -m '删除。。。'
+     此时可能会跳出vim输入框，只需要填写删除备注信息即可
+     git push
+      完成操作
 
