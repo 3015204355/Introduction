@@ -18,5 +18,8 @@
      git commit -m '删除。。。'  
      此时可能会跳出vim输入框，只需要填写删除备注信息即可  
      git push  
-      完成操作  
-
+     完成操作  
+13.给文件重命名
+    git mv readme.txt.readme.md
+    git commit -m '备注'
+    git push
