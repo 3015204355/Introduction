@@ -1,6 +1,6 @@
 1.gitBash Here  </br>
-2.git config --user user.name "username"  
-3.git config --user user.email "email"  
+2.git config --global user.name "username"  
+3.git config --global user.email "email"  
 4.第一次创建仓库，仓库内会有提示git的上传命令  
 5. git init  
     git add 文件名（目录或者具体的文件)  
@@ -23,3 +23,7 @@
     git mv readme.txt.readme.md
     git commit -m '备注'
     git push
+14.移动文件
+    git mv 【文件】【目录】
+    git rm 【文件】
+    git commit
