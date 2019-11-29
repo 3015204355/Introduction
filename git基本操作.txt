@@ -27,3 +27,6 @@
     git mv 【文件】【目录】
     git rm 【文件】
     git commit
+15.同步仓库再上传
+    git clone 【仓库链接】
+    下载下来之后再进行修改上传
