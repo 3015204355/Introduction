@@ -30,3 +30,8 @@
 15.同步仓库再上传
     git clone 【仓库链接】
     下载下来之后再进行修改上传
+16.分支(branch)
+   新建本地分支：git branch 【分支名】
+   切换：git switch 【分支名】
+   提交到远程分支：git push origin 【本地分支名】:【远程分支名（自定）】
+    
